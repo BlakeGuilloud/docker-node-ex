@@ -1,0 +1,17 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Blake Guilloud <blake.guilloud@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "docker:build": "docker-compose build site",
+    "docker:dev": "docker-compose up"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
